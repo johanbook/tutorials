@@ -6,8 +6,9 @@ born. Sadly, it was also where the resemblance between the two ended.
 
 A neural network consist of a network of nodes, like the brain, where every
 connection can have different strengths, also like the brain. In mathematical
-terms, this can for a single node be expressed as \begin{equation} y =
-\phi\left(\sum_i x_i\right) \end{equation}
+terms, this can for a single node be expressed as
+$$y =
+\phi\left(\sum_i x_i\right)$$.
 
 ## Convolutional neural networks
 

@@ -2,9 +2,13 @@
   "name": "docs",
   "version": "1.0.0",
   "description": "",
+  "private": true,
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "prepare": "husky install"
+    "prepare": "husky install",
+    "dev": "astro dev",
+    "start": "astro dev",
+    "build": "astro build",
+    "preview": "astro preview"
   },
   "repository": {
     "type": "git",
@@ -22,6 +26,7 @@
     ]
   },
   "devDependencies": {
+    "astro": "^0.20.3",
     "lint-staged": "^11.1.2",
     "prettier": "^2.3.2",
     "husky": "^7.0.0"

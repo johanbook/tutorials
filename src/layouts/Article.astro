@@ -1,0 +1,13 @@
+---
+import "./global.css";
+const { content } = Astro.props;
+---
+<html>
+  <head>
+    <title>{content.title} | Book's docs</title>
+    <link rel="stylesheet" href="/style/global.css">
+  </head>
+  <body>
+    <slot />
+  </body>
+</html>

@@ -1,3 +1,8 @@
+---
+title: DHCP
+layout: ../../layouts/Article.astro
+---
+
 # DHCP
 
 Dynamic Host Configuration Protocol (DHCP) is a protocol for dynamically assign
